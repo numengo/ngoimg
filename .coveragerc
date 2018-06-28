@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/ngoimg
+   */site-packages/ngoimg
+
+[run]
+branch = true
+source =
+    ngoimg
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
